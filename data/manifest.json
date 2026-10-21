@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-21T19:57:49+00:00",
+  "fetched_at": "2026-10-21T20:37:35+00:00",
   "source": "World Bank Open Data API v2 (CC BY 4.0)",
   "countries": 217,
   "indicators": {
@@ -178,7 +178,172 @@
       "min_year": 1990,
       "max_year": 2024,
       "countries_at_max_year": 209
+    },
+    "GB.XPD.RSDV.GD.ZS": {
+      "name_ja": "研究開発費（対GDP比%）",
+      "category": "技術",
+      "rows": 2467,
+      "min_year": 1996,
+      "max_year": 2024,
+      "countries_at_max_year": 30
+    },
+    "SP.POP.SCIE.RD.P6": {
+      "name_ja": "研究者数（人口100万人あたり）",
+      "category": "技術",
+      "rows": 1973,
+      "min_year": 1996,
+      "max_year": 2024,
+      "countries_at_max_year": 28
+    },
+    "IP.PAT.RESD": {
+      "name_ja": "特許出願数（居住者）",
+      "category": "技術",
+      "rows": 4226,
+      "min_year": 1980,
+      "max_year": 2024,
+      "countries_at_max_year": 121
+    },
+    "TX.VAL.TECH.MF.ZS": {
+      "name_ja": "ハイテク製品輸出比率（工業製品輸出に占める%）",
+      "category": "技術",
+      "rows": 2665,
+      "min_year": 2007,
+      "max_year": 2024,
+      "countries_at_max_year": 125
+    },
+    "NV.IND.MANF.ZS": {
+      "name_ja": "製造業付加価値（対GDP比%）",
+      "category": "経済",
+      "rows": 8253,
+      "min_year": 1960,
+      "max_year": 2025,
+      "countries_at_max_year": 132
+    },
+    "VC.IHR.PSRC.P5": {
+      "name_ja": "殺人発生率（人口10万人あたり）",
+      "category": "安全",
+      "rows": 4065,
+      "min_year": 1990,
+      "max_year": 2023,
+      "countries_at_max_year": 83
+    },
+    "SP.DYN.IMRT.IN": {
+      "name_ja": "乳児死亡率（出生1000人あたり）",
+      "category": "保健",
+      "rows": 11830,
+      "min_year": 1960,
+      "max_year": 2024,
+      "countries_at_max_year": 196
+    },
+    "SH.MED.PHYS.ZS": {
+      "name_ja": "医師数（人口1000人あたり）",
+      "category": "保健",
+      "rows": 5359,
+      "min_year": 1960,
+      "max_year": 2023,
+      "countries_at_max_year": 58
+    },
+    "SE.TER.ENRR": {
+      "name_ja": "高等教育就学率（%）",
+      "category": "教育",
+      "rows": 5353,
+      "min_year": 1970,
+      "max_year": 2025,
+      "countries_at_max_year": 9
+    },
+    "EG.IMP.CONS.ZS": {
+      "name_ja": "エネルギー輸入依存度（純輸入・消費比%）",
+      "category": "エネルギー",
+      "rows": 4617,
+      "min_year": 1990,
+      "max_year": 2024,
+      "countries_at_max_year": 139
+    },
+    "EG.USE.PCAP.KG.OE": {
+      "name_ja": "一人当たりエネルギー消費（石油換算kg）",
+      "category": "エネルギー",
+      "rows": 5304,
+      "min_year": 1990,
+      "max_year": 2024,
+      "countries_at_max_year": 149
+    },
+    "SL.TLF.CACT.FE.ZS": {
+      "name_ja": "女性の労働参加率（15歳以上・%）",
+      "category": "ジェンダー",
+      "rows": 6718,
+      "min_year": 1990,
+      "max_year": 2025,
+      "countries_at_max_year": 182
+    },
+    "SG.GEN.PARL.ZS": {
+      "name_ja": "女性国会議員比率（%）",
+      "category": "ジェンダー",
+      "rows": 5259,
+      "min_year": 1997,
+      "max_year": 2025,
+      "countries_at_max_year": 184
+    },
+    "BN.CAB.XOKA.GD.ZS": {
+      "name_ja": "経常収支（対GDP比%）",
+      "category": "国際収支",
+      "rows": 7773,
+      "min_year": 1960,
+      "max_year": 2025,
+      "countries_at_max_year": 136
+    },
+    "BX.KLT.DINV.WD.GD.ZS": {
+      "name_ja": "対内直接投資（純流入・対GDP比%）",
+      "category": "国際収支",
+      "rows": 9427,
+      "min_year": 1970,
+      "max_year": 2025,
+      "countries_at_max_year": 184
+    },
+    "FI.RES.TOTL.CD": {
+      "name_ja": "外貨準備（金を含む・米ドル）",
+      "category": "国際収支",
+      "rows": 9488,
+      "min_year": 1960,
+      "max_year": 2025,
+      "countries_at_max_year": 132
+    },
+    "PA.NUS.FCRF": {
+      "name_ja": "対ドル為替レート（年平均・自国通貨/ドル）",
+      "category": "為替",
+      "rows": 12613,
+      "min_year": 1960,
+      "max_year": 2025,
+      "countries_at_max_year": 194
+    },
+    "ST.INT.ARVL": {
+      "name_ja": "入国観光客数",
+      "category": "観光",
+      "rows": 4683,
+      "min_year": 1995,
+      "max_year": 2020,
+      "countries_at_max_year": 132
+    },
+    "ST.INT.RCPT.CD": {
+      "name_ja": "観光収入（米ドル）",
+      "category": "観光",
+      "rows": 4156,
+      "min_year": 1995,
+      "max_year": 2020,
+      "countries_at_max_year": 129
+    },
+    "GC.TAX.TOTL.GD.ZS": {
+      "name_ja": "税収（対GDP比%）",
+      "category": "財政",
+      "rows": 4708,
+      "min_year": 1972,
+      "max_year": 2024,
+      "countries_at_max_year": 93
     }
   },
-  "failed": []
+  "failed": [
+    {
+      "code": "PA.NUS.PPPC.RF",
+      "error": "unexpected response for https://api.worldbank.org/v2/country/all/indicator/PA.NUS.PPPC.RF?format=json&per_page=20000&page=1: {'message': [{'id': '175', 'key': 'Invalid format', 'value': 'The indicator was not found. It may have been deleted or archived.'}]}"
+    }
+  ]
 }
