@@ -75,6 +75,9 @@ World Bank GDP estimates, World Bank (WB);
 OECD GDP estimates, Organisation for Economic Co-operation and Development (OECD)",9427,1970,2025
 FI.RES.TOTL.CD,外貨準備（金を含む・米ドル）,国際収支,"Total reserves (includes gold, current US$)",,World Development Indicators,"International Financial Statistics database, International Monetary Fund (IMF)",9488,1960,2025
 PA.NUS.FCRF,対ドル為替レート（年平均・自国通貨/ドル）,為替,"Official exchange rate (LCU per US$, period average)",,World Development Indicators,"International Financial Statistics database, International Monetary Fund (IMF)",12613,1960,2025
+PA.NUS.PPP,購買力平価（GDP・自国通貨/国際ドル）,為替,"PPP conversion factor, GDP (LCU per international $)",,World Development Indicators,"International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, publisher: International Comparison Program, type: International statistical program, date accessed: May 30, 2024, date published: May 30, 2024;
+The Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat, type: International statistical program;
+The OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-https://data-explorer.oecd.org/, publisher: OECD",7043,1990,2025
 ST.INT.ARVL,入国観光客数,観光,"International tourism, number of arrivals",,World Development Indicators,"Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files, UN Tourism",4683,1995,2020
 ST.INT.RCPT.CD,観光収入（米ドル）,観光,"International tourism, receipts (current US$)",,World Development Indicators,"Yearbook of Tourism Statistics, Compendium of Tourism Statistics and data files, UN Tourism",4156,1995,2020
 GC.TAX.TOTL.GD.ZS,税収（対GDP比%）,財政,Tax revenue (% of GDP),,World Development Indicators,"Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF)",4708,1972,2024

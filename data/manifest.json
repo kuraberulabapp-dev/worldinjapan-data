@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-21T20:37:35+00:00",
+  "fetched_at": "2026-10-21T20:39:42+00:00",
   "source": "World Bank Open Data API v2 (CC BY 4.0)",
   "countries": 217,
   "indicators": {
@@ -315,6 +315,14 @@
       "max_year": 2025,
       "countries_at_max_year": 194
     },
+    "PA.NUS.PPP": {
+      "name_ja": "購買力平価（GDP・自国通貨/国際ドル）",
+      "category": "為替",
+      "rows": 7043,
+      "min_year": 1990,
+      "max_year": 2025,
+      "countries_at_max_year": 185
+    },
     "ST.INT.ARVL": {
       "name_ja": "入国観光客数",
       "category": "観光",
@@ -340,10 +348,5 @@
       "countries_at_max_year": 93
     }
   },
-  "failed": [
-    {
-      "code": "PA.NUS.PPPC.RF",
-      "error": "unexpected response for https://api.worldbank.org/v2/country/all/indicator/PA.NUS.PPPC.RF?format=json&per_page=20000&page=1: {'message': [{'id': '175', 'key': 'Invalid format', 'value': 'The indicator was not found. It may have been deleted or archived.'}]}"
-    }
-  ]
+  "failed": []
 }
