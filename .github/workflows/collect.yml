@@ -1,0 +1,36 @@
+name: Collect World Bank data
+
+on:
+  schedule:
+    # 毎月1日 と 15日 の 03:17 UTC（日本時間 12:17）。世界銀行の更新頻度に合わせて月2回
+    - cron: "17 3 1,15 * *"
+  workflow_dispatch: {}   # 手動実行もできるようにする
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch indicators from World Bank API
+        run: python3 collect_worldbank.py --out data
+
+      - name: Commit updated data
+        run: |
+          git config user.name "worldinjapan-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "data: update $(date -u +%Y-%m-%d)"
+            git push
+          fi
