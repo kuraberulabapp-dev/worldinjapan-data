@@ -1,0 +1,184 @@
+{
+  "fetched_at": "2026-10-21T19:57:49+00:00",
+  "source": "World Bank Open Data API v2 (CC BY 4.0)",
+  "countries": 217,
+  "indicators": {
+    "NY.GDP.MKTP.CD": {
+      "name_ja": "GDP（名目・米ドル）",
+      "category": "経済",
+      "rows": 11764,
+      "min_year": 1960,
+      "max_year": 2025,
+      "countries_at_max_year": 186
+    },
+    "NY.GDP.PCAP.CD": {
+      "name_ja": "一人当たりGDP（名目・米ドル）",
+      "category": "経済",
+      "rows": 11764,
+      "min_year": 1960,
+      "max_year": 2025,
+      "countries_at_max_year": 186
+    },
+    "NY.GDP.PCAP.PP.CD": {
+      "name_ja": "一人当たりGDP（購買力平価・国際ドル）",
+      "category": "経済",
+      "rows": 7020,
+      "min_year": 1990,
+      "max_year": 2025,
+      "countries_at_max_year": 185
+    },
+    "NY.GDP.MKTP.KD.ZG": {
+      "name_ja": "実質GDP成長率（%）",
+      "category": "経済",
+      "rows": 11408,
+      "min_year": 1961,
+      "max_year": 2025,
+      "countries_at_max_year": 186
+    },
+    "FP.CPI.TOTL.ZG": {
+      "name_ja": "消費者物価上昇率（%）",
+      "category": "経済",
+      "rows": 9151,
+      "min_year": 1960,
+      "max_year": 2025,
+      "countries_at_max_year": 169
+    },
+    "SL.UEM.TOTL.ZS": {
+      "name_ja": "失業率（%・ILO推計）",
+      "category": "労働",
+      "rows": 6531,
+      "min_year": 1991,
+      "max_year": 2025,
+      "countries_at_max_year": 182
+    },
+    "GC.DOD.TOTL.GD.ZS": {
+      "name_ja": "中央政府債務（対GDP比%）",
+      "category": "財政",
+      "rows": 1649,
+      "min_year": 1970,
+      "max_year": 2024,
+      "countries_at_max_year": 34
+    },
+    "NE.EXP.GNFS.ZS": {
+      "name_ja": "輸出（対GDP比%）",
+      "category": "貿易",
+      "rows": 9029,
+      "min_year": 1960,
+      "max_year": 2025,
+      "countries_at_max_year": 138
+    },
+    "SP.POP.TOTL": {
+      "name_ja": "総人口",
+      "category": "人口",
+      "rows": 14292,
+      "min_year": 1960,
+      "max_year": 2025,
+      "countries_at_max_year": 217
+    },
+    "SP.POP.GROW": {
+      "name_ja": "人口増加率（%）",
+      "category": "人口",
+      "rows": 14073,
+      "min_year": 1961,
+      "max_year": 2025,
+      "countries_at_max_year": 217
+    },
+    "SP.DYN.LE00.IN": {
+      "name_ja": "平均寿命（年）",
+      "category": "保健",
+      "rows": 14071,
+      "min_year": 1960,
+      "max_year": 2024,
+      "countries_at_max_year": 217
+    },
+    "SP.DYN.TFRT.IN": {
+      "name_ja": "合計特殊出生率",
+      "category": "人口",
+      "rows": 14073,
+      "min_year": 1960,
+      "max_year": 2024,
+      "countries_at_max_year": 217
+    },
+    "SP.POP.65UP.TO.ZS": {
+      "name_ja": "65歳以上人口比率（%）",
+      "category": "人口",
+      "rows": 14322,
+      "min_year": 1960,
+      "max_year": 2025,
+      "countries_at_max_year": 217
+    },
+    "SP.URB.TOTL.IN.ZS": {
+      "name_ja": "都市人口比率（%）",
+      "category": "人口",
+      "rows": 14322,
+      "min_year": 1960,
+      "max_year": 2025,
+      "countries_at_max_year": 217
+    },
+    "SH.XPD.CHEX.GD.ZS": {
+      "name_ja": "医療支出（対GDP比%）",
+      "category": "保健",
+      "rows": 4562,
+      "min_year": 2000,
+      "max_year": 2024,
+      "countries_at_max_year": 22
+    },
+    "SE.XPD.TOTL.GD.ZS": {
+      "name_ja": "教育支出（対GDP比%）",
+      "category": "教育",
+      "rows": 5125,
+      "min_year": 1970,
+      "max_year": 2025,
+      "countries_at_max_year": 2
+    },
+    "IT.NET.USER.ZS": {
+      "name_ja": "インターネット利用率（%）",
+      "category": "技術",
+      "rows": 6224,
+      "min_year": 1990,
+      "max_year": 2025,
+      "countries_at_max_year": 10
+    },
+    "EN.GHG.CO2.PC.CE.AR5": {
+      "name_ja": "一人当たりCO2排出量（t）",
+      "category": "環境",
+      "rows": 11165,
+      "min_year": 1970,
+      "max_year": 2024,
+      "countries_at_max_year": 203
+    },
+    "EG.FEC.RNEW.ZS": {
+      "name_ja": "再生可能エネルギー比率（最終消費・%）",
+      "category": "環境",
+      "rows": 6746,
+      "min_year": 1990,
+      "max_year": 2022,
+      "countries_at_max_year": 71
+    },
+    "SI.POV.GINI": {
+      "name_ja": "ジニ係数",
+      "category": "格差",
+      "rows": 2434,
+      "min_year": 1963,
+      "max_year": 2025,
+      "countries_at_max_year": 4
+    },
+    "MS.MIL.XPND.GD.ZS": {
+      "name_ja": "軍事支出（対GDP比%）",
+      "category": "安全保障",
+      "rows": 8187,
+      "min_year": 1960,
+      "max_year": 2025,
+      "countries_at_max_year": 150
+    },
+    "AG.LND.FRST.ZS": {
+      "name_ja": "森林面積比率（%）",
+      "category": "環境",
+      "rows": 7270,
+      "min_year": 1990,
+      "max_year": 2024,
+      "countries_at_max_year": 209
+    }
+  },
+  "failed": []
+}

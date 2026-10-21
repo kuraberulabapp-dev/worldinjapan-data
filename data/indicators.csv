@@ -1,0 +1,47 @@
+code,name_ja,category,name_en,unit,source,source_org,rows,min_year,max_year
+NY.GDP.MKTP.CD,GDP（名目・米ドル）,経済,GDP (current US$),,World Development Indicators,"Country official statistics, National Statistical Organizations and/or Central Banks;
+National Accounts data files, Organisation for Economic Co-operation and Development (OECD);
+Staff estimates, World Bank (WB)",11764,1960,2025
+NY.GDP.PCAP.CD,一人当たりGDP（名目・米ドル）,経済,GDP per capita (current US$),,World Development Indicators,"Country official statistics, National Statistical Organizations and/or Central Banks;
+National Accounts data files, Organisation for Economic Co-operation and Development (OECD);
+Staff estimates, World Bank (WB)",11764,1960,2025
+NY.GDP.PCAP.PP.CD,一人当たりGDP（購買力平価・国際ドル）,経済,"GDP per capita, PPP (current international $)",,World Development Indicators,"International Comparison Program (ICP), World Bank (WB), uri: https://www.worldbank.org/en/programs/icp/data, note: This information is for ICP’s PPPs utilized in WDI, publisher: International Comparison Program (ICP), date accessed: May 30, 2024, date published: May 30, 2024;
+The Eurostat PPP Programme, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/databrowser/explore/all/all_themes, publisher: Eurostat;
+The OECD PPP Programme, Organisation for Economic Co-operation and Development (OECD), uri: https://data-explorer.oecd.org/, publisher: OECD;
+Staff estimates, World Bank (WB);
+National Accounts data files, Organisation for Economic Co-operation and Development (OECD);
+World Economic Outlook database, International Monetary Fund (IMF)",7020,1990,2025
+NY.GDP.MKTP.KD.ZG,実質GDP成長率（%）,経済,GDP growth (annual %),,World Development Indicators,"Country official statistics, National Statistical Organizations and/or Central Banks;
+National Accounts data files, Organisation for Economic Co-operation and Development (OECD);
+Staff estimates, World Bank (WB)",11408,1961,2025
+FP.CPI.TOTL.ZG,消費者物価上昇率（%）,経済,"Inflation, consumer prices (annual %)",,World Development Indicators,"International Financial Statistics database, International Monetary Fund (IMF)",9151,1960,2025
+SL.UEM.TOTL.ZS,失業率（%・ILO推計）,労働,"Unemployment, total (% of total labor force) (modeled ILO estimate)",,World Development Indicators,"ILO Modelled Estimates database (ILOEST), International Labour Organization (ILO), uri: https://ilostat.ilo.org/data/bulk/, publisher: ILOSTAT, type: external database, date accessed: January 17, 2026",6531,1991,2025
+GC.DOD.TOTL.GD.ZS,中央政府債務（対GDP比%）,財政,"Central government debt, total (% of GDP)",,World Development Indicators,"Government Finance Statistics Yearbook and data files, International Monetary Fund (IMF)",1649,1970,2024
+NE.EXP.GNFS.ZS,輸出（対GDP比%）,貿易,Exports of goods and services (% of GDP),,World Development Indicators,"Country official statistics, National Statistical Offices (NSOs);
+National Accounts data files, Central Banks;
+Staff estimates, World Bank (WB)",9029,1960,2025
+SP.POP.TOTL,総人口,人口,"Population, total",,World Development Indicators,"World Population Prospects, United Nations (UN), uri: https://population.un.org/wpp/, publisher: UN Population Division;
+Statistical databases and publications from national statistical offices, National Statistical Offices (NSOs), uri: https://unstats.un.org/home/nso_sites/, publisher: National Statistical Offices;
+Eurostat: Demographic Statistics, Eurostat (ESTAT), uri: https://ec.europa.eu/eurostat/data/database?node_code=earn_ses_monthly, publisher: Eurostat;
+Population and Vital Statistics Report (various years), United Nations (UN), uri: https://unstats.un.org, publisher: UN Statistics Division",14292,1960,2025
+SP.POP.GROW,人口増加率（%）,人口,Population growth (annual %),,World Development Indicators,"World Population Prospects, United Nations (UN), note: Derived from total population, publisher: UN Population Division;
+Statistical databases and publications from national statistical offices, National Statistical Offices (NSOs), note: Derived from total population;
+Demographic Statistics, Eurostat (ESTAT), note: Derived from total population;
+Population and Vital Statistics Report (various years), United Nations (UN), note: Derived from total population, publisher: UN Statistical Division",14073,1961,2025
+SP.DYN.LE00.IN,平均寿命（年）,保健,"Life expectancy at birth, total (years)",,World Development Indicators,"World Population Prospects, United Nations (UN), uri: UN Population Division;
+Statistical databases and publications from national statistical offices, National Statistical Offices (NSOs), note: Derived from male and female life expectancy at birth from sources such as statistical databases and publications from national statistical offices.;
+Demographic Statistics, Eurostat (ESTAT), note: Derived from male and female life expectancy at birth from sources such as Eurostat: Demographic Statistics.",14071,1960,2024
+SP.DYN.TFRT.IN,合計特殊出生率,人口,"Fertility rate, total (births per woman)",,World Development Indicators,"World Population Prospects, United Nations (UN), publisher: UN Population Division;
+Statistical databases and publications from national statistical offices, National Statistical Offices (NSOs);
+Demographic Statistics, Eurostat (ESTAT)",14073,1960,2024
+SP.POP.65UP.TO.ZS,65歳以上人口比率（%）,人口,Population ages 65 and above (% of total population),,World Development Indicators,"World Population Prospects, United Nations (UN), publisher: UN Population Division",14322,1960,2025
+SP.URB.TOTL.IN.ZS,都市人口比率（%）,人口,Urban population (% of total population),,World Development Indicators,"World Urbanization Prospects, United Nations (UN), uri: https://population.un.org/wup/, note: United Nations Population Division's World Urbanization Prospects, National definitions, publisher: UN Population Division",14322,1960,2025
+SH.XPD.CHEX.GD.ZS,医療支出（対GDP比%）,保健,Current health expenditure (% of GDP),,World Development Indicators,"Global Health Expenditure Database, updated December 12th, 2025, World Health Organization (WHO), uri: https://apps.who.int/nha/database",4562,2000,2024
+SE.XPD.TOTL.GD.ZS,教育支出（対GDP比%）,教育,"Government expenditure on education, total (% of GDP)",,World Development Indicators,"Data API, UN Educational, Scientific and Cultural Organization (UNESCO), uri: https://databrowser.uis.unesco.org/resources, note: The data are obtained through the UIS API.  Detailed documentation is available at: https://api.uis.unesco.org/api/public/documentation/, publisher: UNESCO Institute for Statistics (UIS), date accessed: 2026-03-19, date published: 2026-02",5125,1970,2025
+IT.NET.USER.ZS,インターネット利用率（%）,技術,Individuals using the Internet (% of population),,World Development Indicators,"World Telecommunication/ICT Indicators Database, International Telecommunication Union (ITU), uri: https://datahub.itu.int/",6224,1990,2025
+EN.GHG.CO2.PC.CE.AR5,一人当たりCO2排出量（t）,環境,Carbon dioxide (CO2) emissions excluding LULUCF per capita (t CO2e/capita),,World Development Indicators,"EDGAR (Emissions Database for Global Atmospheric Research) Community GHG Database, Joint Research Centre (JRC) - European Commission, uri: https://edgar.jrc.ec.europa.eu/dataset_ghg2024, publisher: JRC European Commission, date published: 2024;
+International Energy Agency (IEA), uri: https://edgar.jrc.ec.europa.eu/dataset_ghg2024, publisher: JRC European Commission, date published: 2024",11165,1970,2024
+EG.FEC.RNEW.ZS,再生可能エネルギー比率（最終消費・%）,環境,Renewable energy consumption (% of total final energy consumption),,World Development Indicators,"IEA Energy Statistics Data Browser, International Energy Agency (IEA), uri: https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser, publisher: International Energy Agency (IEA), date accessed: 2025-03-25",6746,1990,2022
+SI.POV.GINI,ジニ係数,格差,Gini index,,World Development Indicators,"World Bank, Poverty and Inequality Platform. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database. For more information and methodology, please see http://pip.worldbank.org., World Bank (WB), uri: http://pip.worldbank.org, note: Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments. Data for high-income economies are mostly from the Luxembourg Income Study database.",2434,1963,2025
+MS.MIL.XPND.GD.ZS,軍事支出（対GDP比%）,安全保障,Military expenditure (% of GDP),,World Development Indicators,"SIPRI Military Expenditure Database, Stockholm International Peace Research Institute (SIPRI), uri: https://www.sipri.org/databases",8187,1960,2025
+AG.LND.FRST.ZS,森林面積比率（%）,環境,Forest area (% of land area),,World Development Indicators,"FAOSTAT, Food and Agriculture Organization of the United Nations (FAO), uri: https://www.fao.org/faostat/en/#data/RL, publisher: Food and Agriculture Organization of the United Nations (FAO)",7270,1990,2024
