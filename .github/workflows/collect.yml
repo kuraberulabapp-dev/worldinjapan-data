@@ -5,14 +5,25 @@ on:
     # 毎月1日 と 15日 の 03:17 UTC（日本時間 12:17）。世界銀行の更新頻度に合わせて月2回
     - cron: "17 3 1,15 * *"
   workflow_dispatch: {}   # 手動実行もできるようにする
+  push:                   # サイトの作りを直したときは、データは取り直さずにサイトだけ作り直す
+    branches: [main]
+    paths:
+      - "build_site.py"
+      - "web/**"
 
 permissions:
   contents: write
+
+concurrency:
+  group: collect-and-build
+  cancel-in-progress: false
 
 jobs:
   collect:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    env:
+      SITE_URL: https://worldinjapan.pages.dev
     steps:
       - uses: actions/checkout@v4
 
@@ -21,16 +32,23 @@ jobs:
           python-version: "3.12"
 
       - name: Fetch indicators from World Bank API
+        if: github.event_name != 'push'
         run: python3 collect_worldbank.py --out data
 
-      - name: Commit updated data
+      - name: Get chart library (fallback copy served with the site)
+        run: curl -fsSL https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js -o web/echarts.min.js || echo "skip"
+
+      - name: Build site
+        run: python3 build_site.py --data data --web web --out site
+
+      - name: Commit updated data and site
         run: |
           git config user.name "worldinjapan-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data
+          git add data site
           if git diff --cached --quiet; then
             echo "no changes"
           else
-            git commit -m "data: update $(date -u +%Y-%m-%d)"
+            git commit -m "data/site: update $(date -u +%Y-%m-%d)"
             git push
           fi
